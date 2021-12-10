@@ -1,0 +1,64 @@
+/* Fonts */
+
+/* Lalezar  */
+@import url('https://v1.fontapi.ir/css/Lalezar');
+/* Lalezar */
+
+/* Vazir */
+@import url('https://v1.fontapi.ir/css/Vazir');
+/* Vazir */
+
+/* Sahel */
+@import url('https://v1.fontapi.ir/css/Sahel');
+/* Sahel */
+
+/* Fonts */
+
+:root{
+    --orange:#e67e22;
+    --black:#333;
+    --light-color:#777;
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+body * {
+    font-family: Vazir;
+    direction: rtl;
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;    
+    padding:0.5rem 5%;
+}
+
+.header .logo {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.7rem;
+    font-family: Sahel;
+}
+
+.header .navbar a{
+    color:var(--light-color);
+    margin-right: 2rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.header .logo span {
+    color: var(--orange);
+    font-family: Sahel;
+
+}
+
+.colider {
+    border-right: 1px solid #ccc; margin: 0 10px 0 -25px
+}
